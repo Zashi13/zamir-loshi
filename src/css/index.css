@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  --white: 255, 255, 255;
+  --black: 18, 18, 18;
+  --orange: 243, 145, 35;
+  --navy: 22, 24, 48;
+  margin: 0px;
+  font-family: edita, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+html{
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: pelago, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1{
+  font-size: 6rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+p{
+  font-family: edita, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1rem;
+}
+
+.white{
+  color: rgb(var(--white));
+}
+
+.black{
+  color: rgb(var(--black));
+}
+
+.orange{
+  color: rgb(var(--orange));
+}
+
+.navy{
+  color: rgb(var(--navy));
+}
+
+strong{
+  font-weight: 700;
+  font-style: italic;
+}
+
+main{
+  padding-top: 70px;
+  padding-inline: 20px;
+  padding-bottom: 100px;
+}

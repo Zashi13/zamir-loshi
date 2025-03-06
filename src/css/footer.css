@@ -1,0 +1,8 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(var(--navy));
+    z-index: 999;
+}

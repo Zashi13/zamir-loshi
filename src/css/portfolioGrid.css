@@ -1,0 +1,79 @@
+.media-grid{
+    width: 100%;
+    columns: 3 250px;
+    }
+
+.portfolioImg, .portfolioVideo{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+  .loading-spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(var(--black));
+    z-index: 10;
+  }
+  
+  .media-grid.blurred {
+    filter: blur(5px); /* Blur effect while loading */
+  }
+
+#loadingSpinner{
+  width: 100px;
+  animation: bounce 2s ease 0s infinite normal forwards;
+}
+
+
+@keyframes bounce {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
