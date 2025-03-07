@@ -77,6 +77,10 @@ nav :not(:last-child){
     width: 100%;
 }
 
+.nav-links.open a{
+    padding-top: 10px;
+}
+
 header.open{
     background-color: rgba(var(--white), 0.6);
 }
@@ -96,4 +100,10 @@ header.open{
     nav :not(:last-child){
         margin-right: 0px;
     }
+}
+
+@media (max-width: 600px){
+.burger-menu{
+    padding-right: 0px;
+}
 }
