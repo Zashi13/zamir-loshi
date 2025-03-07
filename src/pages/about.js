@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import Portrait from "../assets/portrait.JPG";
 import "../css/about.css";
 export default function About () {
+    document.title = 'About';
     return(
         <main className="center">
             <div className="textContainer">

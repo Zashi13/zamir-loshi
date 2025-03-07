@@ -61,7 +61,7 @@ export default function Header() {
                     <a
                         onMouseEnter={handleMouseEnterSVG}
                         onMouseLeave={handleMouseLeaveSVG}
-                        href="https://instagram.com/racingvisuals.ch"
+                        href="https://instagram.com/zamirloshifoto"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

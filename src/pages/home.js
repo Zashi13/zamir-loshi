@@ -12,6 +12,7 @@ const images = [
 ];
 
 export default function Home() {
+    document.title = 'Zamir Loshi Photography';
     const [currentImage, setCurrentImage] = useState(0);
 
     useEffect(() => {

@@ -2,6 +2,7 @@ import ContactImg from "../assets/contact.jpg";
 import { NavLink } from "react-router-dom";
 
 export default function Contact (){
+    document.title = 'Contact';
     return(
         <main className="center">
             <div className="textContainer">
