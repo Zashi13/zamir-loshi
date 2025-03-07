@@ -1,0 +1,21 @@
+#portrait{
+max-width: 500px;
+height: 60vh;
+object-fit: cover;
+}
+
+.textContainer{
+    padding-right: 100px;
+}
+
+@media (max-width: 930px) {
+    #portrait{
+        margin-top: 50px;
+        height: 60vh;
+        width: 80vw;
+    }
+
+    .textContainer{
+        padding-right: 0px;
+    }
+}

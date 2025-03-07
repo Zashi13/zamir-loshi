@@ -65,17 +65,6 @@ nav :not(:last-child){
     margin-right: 10px;
 }
 
-nav a:not(:last-child) {
-    color: rgb(var(--navy));
-    text-decoration: none;
-}
-
-nav a:hover{
-    text-decoration: underline;
-    text-decoration-color: rgb(var(--orange));
-    text-underline-offset: 3px;
-}
-
 .nav-links.open {
     display: flex;
     flex-direction: column;

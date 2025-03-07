@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(var(--black));
+    background: rgb(var(--navy));
     z-index: 10;
   }
   

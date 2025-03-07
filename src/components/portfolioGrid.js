@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo-Icon.png";
 import "../css/portfolioGrid.css";
 
 // Dynamically require images and videos from the specified folder
